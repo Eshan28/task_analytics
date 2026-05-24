@@ -1,0 +1,14 @@
+# Java
+target/
+*.class
+*.jar
+.idea/
+*.iml
+
+# Node
+node_modules/
+npm-debug.log
+
+# Secrets - IMPORTANT
+application.properties
+.env
