@@ -407,69 +407,29 @@ Reply: "Marked 3 Work tasks complete.
 | Charts not rendering | No category data | Add tasks with different categories |
 
 ---
+## Working Snapshots
 
-## Push to GitHub
+### 1. Home Page
+Here we can track all our tasks.The navbar shows all the functions we can perform.
+![Home Page](<Screenshots/Screenshot 2026-05-24 040217.png>)
 
-### Step 1 — Create Repository on GitHub
+### 2. Add Task Page
+Here we can add a desired task with a Title, select a Category, and provide a due date.
+![Add Task Page](<Screenshots/Screenshot 2026-05-24 040326.png>)
 
-1. Go to [github.com](https://github.com) → Sign in
-2. Click **+** (top right) → **New repository**
-3. Name: `task-analytics`
-4. Visibility: **Public**
-5. Click **Create repository**
+### 3. Analytics Dashboard
+Here we can track our tasks so that it helps us know where we are lacking and how we can improve our reports.
+![Analytics Dashboard](<Screenshots/Screenshot 2026-05-24 040350.png>)
 
----
+### 4. AI Assistant Page
+An AI-integrated assistant powered by LLaMA where we can talk, add tasks, or get updates on our reports.
+![AI Assistant](<Screenshots/Screenshot 2026-05-24 040635.png>)
+![AI Assistant](<Screenshots/Screenshot 2026-05-24 040736.png>)
 
-### Step 2 — Create .gitignore
-
-Create file `C:\DemoEshan\.gitignore`:
-
-```
-# Java
-target/
-*.class
-*.jar
-.idea/
-*.iml
-
-# Node
-node_modules/
-npm-debug.log
-
-# Secrets - IMPORTANT
-application.properties
-.env
-```
-
-> ⚠️ **Important**: `application.properties` is in `.gitignore` to protect your database password and API key. Share credentials separately with your teacher.
-
----
-
-### Step 3 — Push Code
-
-Open Command Prompt (not PowerShell):
-
-```bash
-cd C:\DemoEshan
-
-git init
-git add .
-git commit -m "Complete task analytics app with AI agent"
-git remote add origin https://github.com/YOUR_USERNAME/task-analytics.git
-git branch -M main
-git push -u origin main
-```
-
-Replace `YOUR_USERNAME` with your actual GitHub username.
-
----
-
-### Step 4 — Verify
-
-Visit: `https://github.com/YOUR_USERNAME/task-analytics`
-
-You should see all your files. ✅
-
+### 5. Updated Home Page 
+Now we can see updated changes which me made above.
+![Home Page Updated](<Screenshots/Screenshot 2026-05-24 040810.png>)
+![Home Page Filters](<Screenshots/Screenshot 2026-05-24 040826.png>)
 ---
 
 ## Assignment Requirements
